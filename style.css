@@ -1,0 +1,17 @@
+body::before {
+    display: block;
+    content: '';
+    height: 50px;
+}
+
+#spacer1::before, #spacer2::before, #spacer3::before {
+    display: block;
+    content: '';
+    height: 100px;
+}
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
